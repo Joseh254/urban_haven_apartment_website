@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,6 +52,7 @@ ul {
     height: auto;
     margin-top: 0px;
     text-decoration: none;
+    
   }
 
   #h1{
@@ -87,5 +89,63 @@ ul {
     margin-bottom: 5px;
     align-items: center;
     justify-content: flex-start;
+
+  }
+
+  #space{
+    display: block;
+    width: 25%;
+    margin-left: 26%;
+    align-items: center;
+  }
+
+  #amenities{
+    display: block;
+    margin-left: 26%;
+    
+  
+  }
+
+  #wifi{
+    display: block;
+    
+    width: 250px;
+    
+  }
+  #swimming{
+    display: block;
+    
+    width: 250px;
+
+  }
+
+  #parking{
+
+    display: block;
+    
+    width: 250px;
+  }
+
+  #water{
+    display: block;
+    
+    width: 250px;
+
+  }
+
+  #elevator{
+    display: block;
+    
+    width: 250px;
+
+  }
+
+  #Gym{
+
+
+  }
+
+  #theatre{
+
 
   }
