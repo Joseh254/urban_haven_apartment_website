@@ -1,0 +1,91 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    width: 20%;
+    background-color: #f1f1f1;
+
+
+
+
+
+
+
+  }
+  li a{
+
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 8px 16px;
+    text-align: left;
+    
+  
+    
+
+  }
+
+  li:last-child{
+    border-bottom: none;
+  }
+
+  li a.home {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  
+  li a:hover{
+    background-color: blue;
+    color: aliceblue;
+    
+  }
+
+  #body{
+
+    margin-left: 21%;
+    height: auto;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  #h1{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(122, 136, 202);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  #h2{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #04AA6D;
+    text-align: center;
+  }
+
+  #headings{
+    background-image: url();
+    height: 10%;
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image in the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%
+  }
+
+  #spaces{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 26%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
