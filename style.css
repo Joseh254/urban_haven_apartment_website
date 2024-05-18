@@ -61,7 +61,7 @@ ul {
     text-transform: capitalize;
     text-align: center;
     color: rgb(122, 136, 202);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Brush Script MT, Brush Script Std, cursive';
     font-size: 70px;
     color: white;
 
@@ -97,7 +97,7 @@ ul {
 #welcomeMessage{
 
   margin-top: 10px;
-  background-color: rgb(202, 202, 238);
+  background-color: rgb(237, 237, 240);
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -143,6 +143,8 @@ ul {
     margin-left: 21%;
     background-color: #eaf3f0;
     display: block;
+    font-size: larger;
+    font-weight: 200;
     
   
   }
