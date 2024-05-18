@@ -62,7 +62,7 @@ ul {
     text-align: center;
     color: rgb(122, 136, 202);
     font-family: 'Brush Script MT, Brush Script Std, cursive';
-    font-size: 70px;
+    font-size: 60px;
     color: white;
 
   }
@@ -72,7 +72,7 @@ ul {
     text-transform: capitalize;
     color: #04AA6D;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
   }
 
   #heads{
@@ -94,6 +94,39 @@ ul {
 
     width: 100%
   }
+
+  .heads-cta{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  #cta1{
+
+    margin-right: 20px;
+    align-items: center;
+    background-color: red;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+  }
+
+  #cta2{
+
+    margin-right: 20px;
+    align-items: center;
+    background-color: red;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+  }
+
 #welcomeMessage{
 
   margin-top: 10px;
@@ -231,6 +264,10 @@ ul {
   }
   #about{
     
+    margin-left: 21%;
+  }
+
+  #fom{
     margin-left: 21%;
   }
 
