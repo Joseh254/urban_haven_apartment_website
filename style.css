@@ -114,18 +114,6 @@ ul {
     gap: 20px;
   }
 
-  #cta2{
-
-    margin-right: 20px;
-    align-items: center;
-    background-color: red;
-    text-decoration: none;
-    text-transform: capitalize;
-    color:white;
-    padding: 10px;
-    border-radius: 10px;
-    gap: 20px;
-  }
 
 #welcomeMessage{
 
