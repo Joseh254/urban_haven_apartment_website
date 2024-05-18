@@ -62,6 +62,8 @@ ul {
     text-align: center;
     color: rgb(122, 136, 202);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: white;
 
   }
 
@@ -70,15 +72,20 @@ ul {
     text-transform: capitalize;
     color: #04AA6D;
     text-align: center;
+    font-size: 80px;
   }
 
   #heads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image:url('./assets/main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
     
     margin-left: 21%;
-    height: 200px;
+    height: 500px;
     
 
   }
@@ -90,7 +97,20 @@ ul {
 #welcomeMessage{
 
   margin-top: 10px;
+  background-color: rgb(202, 202, 238);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-weight: 300;
+  font-size: x-large;
+  margin-top: 16px;
 }
+
+
+
   .spacesavailable{
     margin-left: 26%;
     color: blue;
@@ -106,20 +126,22 @@ ul {
     margin-bottom: 5px;
     align-items: center;
     justify-content: flex-start;
+    font-weight: 200px;
+    gap: 20px;
 
   }
 
   #space{
     display: block;
     width: 25%;
-    margin-left: 21%;
+    margin-left: 26%;
     align-items: center;
   }
 
   #amenities{
     display: block;
     margin-left: 21%;
-    background-color: #cae0d9;
+    background-color: #eaf3f0;
     display: block;
     
   
@@ -200,7 +222,7 @@ ul {
 
   .imge{
     margin-left: 0%;
-    width: 250px;
+    width: 350px;
     gap: 200px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -211,5 +233,5 @@ ul {
   }
 
   #footer{
-    margin-left: 21S%;
+    margin-left: 21%;
   }
