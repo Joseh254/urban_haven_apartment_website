@@ -109,13 +109,13 @@ ul {
   #wifi{
     display: block;
     
-    width: 250px;
+    width:100%;
     
   }
   #swimming{
     display: block;
     
-    width: 250px;
+    width:100%;
 
   }
 
@@ -123,29 +123,52 @@ ul {
 
     display: block;
     
-    width: 250px;
+    width:100%;
   }
 
   #water{
     display: block;
     
-    width: 250px;
+    width:100%;
 
   }
 
   #elevator{
     display: block;
     
-    width: 250px;
+    width:100%;
 
   }
 
   #Gym{
-
+    display: block;
+    
+    width:100%;
 
   }
 
   #theatre{
+    display: block;
+    
+    width:100%;
 
+  }
 
+  .amen{
+    display: flex;
+    flex-direction: row;
+    margin-left: 26%;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 50px;
+    background-color: antiquewhite;
+    
+  }
+
+  .imge{
+    margin-left: 0%;
+    width: 250px;
+    gap: 200px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
