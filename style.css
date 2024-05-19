@@ -182,7 +182,7 @@ ul {
   #hamen{
 
   margin-left: 400px;
-  font-family: "Bradley Hand, cursive", serif
+  font-family: "Bradley Hand, cursive", serif;
   }
 
   #wifi{
@@ -253,13 +253,27 @@ ul {
     margin-bottom: 15px;
   }
   #about{
-    
+    display: block;
     margin-left: 1%;
+    background-color: rgb(68, 37, 37);
+    color: white;
+    font-family:"Bradley Hand, cursive", serif ;
+    padding: 5px;
+    font-size: large;
+  }
+
+  #habout{
+
+    display: flex;
+    flex-direction: row;
+    text-decoration: wavy;
+
   }
 
   #fom{
     margin-left: 1%;
   }
+
 
   #footer{
     margin-left: 1%;
