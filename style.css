@@ -1,25 +1,29 @@
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    width: 20%;
-    background-color: #f1f1f1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
 
   }
+
+
+  li{
+
+    float: left;
+  }
  
   li a{
-
     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    text-transform: capitalize;
-    color: black;
-    padding: 8px 16px;
-    text-align: left;
     
   
     
@@ -36,15 +40,14 @@ ul {
   }
   
   
-  li a:hover{
-    background-color: blue;
-    color: aliceblue;
-    
+  li a:hover:not(.active) {
+    background-color: #111;
   }
+  
 
   #body{
 
-    margin-left: 21%;
+    margin-left: 1%;
     height: auto;
     margin-top: 0px;
     text-decoration: none;
@@ -83,8 +86,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
-    
-    margin-left: 21%;
+    margin-left: 0%;
     height: 500px;
     
 
@@ -133,7 +135,7 @@ ul {
 
 
   .spacesavailable{
-    margin-left: 26%;
+    margin-left: 6%;
     color: blue;
     font-style: italic;
   }
@@ -142,7 +144,7 @@ ul {
 
     display: flex;
     flex-direction: row;
-    margin-left: 26%;
+    margin-left: 6%;
     margin-top: 5px;
     margin-bottom: 5px;
     align-items: center;
@@ -155,13 +157,13 @@ ul {
   #space{
     display: block;
     width: 25%;
-    margin-left: 26%;
+    margin-left: 6%;
     align-items: center;
   }
 
   #amenities{
     display: block;
-    margin-left: 21%;
+    margin-left: 1%;
     background-color: #eaf3f0;
     display: block;
     font-size: larger;
@@ -234,7 +236,7 @@ ul {
   .amen{
     display: flex;
     flex-direction: row;
-    margin-left: 21%;
+    margin-left: 1%;
     width: 100%;
     box-sizing: border-box;
     gap: 50px;
@@ -252,13 +254,19 @@ ul {
   }
   #about{
     
-    margin-left: 21%;
+    margin-left: 1%;
   }
 
   #fom{
-    margin-left: 21%;
+    margin-left: 1%;
   }
 
   #footer{
-    margin-left: 21%;
+    margin-left: 1%;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
   }
